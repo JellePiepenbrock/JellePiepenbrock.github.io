@@ -15,6 +15,7 @@ plainwhite:
   name: Jelle Piepenbrock
   tagline: Reinforcement Learner
   date_format: "%b %-d, %Y"
+  permalink: /:year/:month/:day/:title.html
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
