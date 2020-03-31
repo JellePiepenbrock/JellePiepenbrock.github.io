@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: Idependent Component Analysis"
+title: "Tag: Independent Component Analysis"
 tag: independent-component-analysis
 ---
