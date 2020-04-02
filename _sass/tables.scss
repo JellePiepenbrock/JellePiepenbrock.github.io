@@ -1,0 +1,39 @@
+// Needs refactoring
+// stylelint-disable selector-max-type
+
+$font-weight-bold: 600;
+$border-width: 1px;
+$border-style: solid;
+$gray-300: #dfe2e5;
+
+.page-content {
+  // Tables
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+
+    th {
+      font-weight: $font-weight-bold;
+    }
+
+    th,
+    td {
+      // stylelint-disable-next-line primer/spacing
+      padding: 6px 13px;
+      // stylelint-disable-next-line primer/borders
+      border: $border-width $border-style lighten($gray-300, 5%);
+    }
+
+    tr {
+      // stylelint-disable-next-line primer/borders
+      border-top: $border-width $border-style darken($gray-300, 4%);
+    }
+
+    img {
+      background-color: transparent;
+    }
+  }
+}
