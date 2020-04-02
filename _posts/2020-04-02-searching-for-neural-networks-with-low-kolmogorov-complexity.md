@@ -30,7 +30,7 @@ The repository coupled to this blog contains a Python implementation of the pape
 > Discovering neural nets with low Kolmogorov complexity and high generalization capacity. Jürgen Schmidhuber, 1997.
 
 According to Google Scholar, this paper has 140 citations. 
-The paper contains an array of interesting ideas and the authors have published several followup papers. The rest of this first blog post will explain and expore the content of this paper.
+The paper contains an array of interesting ideas and the authors have published several follow-up papers. The rest of this first blog post will explain and expore the content of this paper.
 
 The paper provides an interesting perspective. The approach taken is quite different from the gradient-based learning that is (not undeservingly) the main focus of machine learning today. Still, it opens the door to better understanding of the scope of the task that researchers in field of machine learning (and in the broader sense, artificial intelligence) have set themselves. 
 
@@ -323,7 +323,7 @@ Cited as:
 ```
 
 This blog post was written as a collaboration between Simon Brugman and Jelle Piepenbrock (with equal contribution).
-It was cross-published at both author's blogs. You can find the parallel version [here](https://simonbrugman.nl/2020/04/02/searching-for-neural-networks-with-low-kolmogorov-complexity.html).
+It was cross-published at both author's blogs. You can find the parallel version [here](https://simonbrugman.nl/2020/04/02/searching-for-neural-networks-with-low-kolmogorov-complexity.html). The code is available [here](https://github.com/sbrugman/levin-program-search).
 
 ## References
 - Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. J. of Math, 58(345-363), 5.
