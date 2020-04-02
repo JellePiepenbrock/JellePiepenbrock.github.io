@@ -71,7 +71,7 @@ There are no programs left to evaluate, we increase $$k$$.
 </p>
 </details>
 
-<details><summary><em>k=3</em></summary>
+<details open="open"><summary><em>k=3</em></summary>
 <p>
 
 <div markdown="1">
