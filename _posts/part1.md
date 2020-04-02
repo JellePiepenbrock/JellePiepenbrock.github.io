@@ -4,6 +4,7 @@ comments: true
 title: "Searching for Neural Networks with Low Kolmogorov Complexity"
 date: 2020-03-31 08:00:00
 tags: kolmogorov-complexity long-read
+mathjax: true
 ---
 
 # Searching for Neural Networks with Low Kolmogorov Complexity
