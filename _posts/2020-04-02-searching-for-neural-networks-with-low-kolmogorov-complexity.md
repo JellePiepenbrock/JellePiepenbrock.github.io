@@ -4,6 +4,7 @@ comments: true
 title: "Searching for Neural Networks with Low Kolmogorov Complexity"
 date: 2020-04-02 08:00:00
 tags: kolmogorov-complexity long-read
+categories: algorithmic-information-theory neural-networks
 published: true
 ---
 
