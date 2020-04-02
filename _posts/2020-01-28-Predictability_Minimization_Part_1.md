@@ -5,7 +5,7 @@ date:   2020-01-28 14:03:36 +0100
 categories: neural-networks independent-component-analysis
 ---
 
-This will be a small blog post explaining the setup of Juergen Schmidhubers 1992 paper on 'Predictability Minimization'. The full title of the paper is 'Learning Factorial Codes by Predictability Minimization'. Recently, there has been a lot of literature focusing on 'disentangled representations' in variational autoencoders and other neural network architectures. In a follow-up post, I will give a simple Python implementation of the paper's central idea.
+This will be a small blog post explaining the setup of Jürgen Schmidhubers 1992 paper on 'Predictability Minimization'. The full title of the paper is 'Learning Factorial Codes by Predictability Minimization'. Recently, there has been a lot of literature focusing on 'disentangled representations' in variational autoencoders and other neural network architectures. In a follow-up post, I will give a simple Python implementation of the paper's central idea.
 
 <!--more-->
 
