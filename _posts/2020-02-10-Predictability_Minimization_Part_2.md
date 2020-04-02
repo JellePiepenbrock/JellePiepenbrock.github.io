@@ -72,7 +72,7 @@ class PM(nn.Module):
 
         # predictor 1
 
-        self.predictor1 = nn.Sequential(
+        self.predictor_1 = nn.Sequential(
             nn.Linear(1, 40),
             nn.ReLU(),
             nn.Linear(40, 1),
@@ -81,7 +81,7 @@ class PM(nn.Module):
 
         # predictor 2
 
-        self.predictor2 = nn.Sequential(
+        self.predictor_2 = nn.Sequential(
             nn.Linear(1, 40),
             nn.ReLU(),
             nn.Linear(40, 1),
@@ -96,8 +96,8 @@ class PM(nn.Module):
         code1 = torch.tensor(code)[:, 1].reshape(4, 1)
         code0 = torch.tensor(code)[:, 0].reshape(4, 1)
 
-        pred1 = self.predictor1(code1).to(device)
-        pred2 = self.predictor2(code0).to(device)
+        pred1 = self.predictor_1(code1).to(device)
+        pred2 = self.predictor_2(code0).to(device)
 
         return code, pred1, pred2, reconstruction
 
@@ -109,7 +109,7 @@ $$ I = \frac{1}{n} \sum_{n=1}^N (Y_{true} - Y_{pred})^2 $$
 
 In addition to this, we compute the mean square error between the value of the code units and the predictor unit's estimates of what they are. This is called $$V_c$$ in the original paper.
 
-$$ V_c = \frac{1}{n} \sum_{n=1}^N (Y_{code} - Y_{predictedcode})^2 $$
+$$ V_c = \frac{1}{n} \sum_{n=1}^N (Y_{code} - Y_{predicted_code})^2 $$
 
 The code units try to maximize this loss (as they supply the first term) while the predictor units try to minimize this loss (they supply the second term).
 
@@ -146,8 +146,8 @@ reconstruction_optimizer = torch.optim.Adam(list(model.decoder.parameters()) +
                                            lr=learning_rate)
 
 # This optimizer governs the predictors, that enforce the independence of the code units
-prediction_optimizer = torch.optim.Adam(list(model.predictor1.parameters()) + 
-                                       list(model.predictor2.parameters()),
+prediction_optimizer = torch.optim.Adam(list(model.predictor_1.parameters()) + 
+                                       list(model.predictor_2.parameters()),
                                        lr=2 * learning_rate)
 ```
 
@@ -163,9 +163,9 @@ for epoch in range(num_epochs):
         seqs = samples.float().to(device)
         # print(seqs.shape)
         # Forward pass
-        code, pred1, pred2, reconstruction = model.forward(seqs)
+        code, pred_1, pred_2, reconstruction = model.forward(seqs)
         # print(code.shape)
-        preds = torch.cat([pred1, pred2], dim=1).to(device)
+        preds = torch.cat([pred_1, pred_2], dim=1).to(device)
         # print(preds.shape)
 
         # The reconstruction loss
