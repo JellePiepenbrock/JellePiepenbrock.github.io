@@ -12,7 +12,7 @@ This will be a two-part blog series, where the first part reproduces the experim
 
 <img alt="Program Animation" src="{{ '/assets/images/levin-search-1/count/animation_1_0_2_0.gif' | relative_url }}" width="400px" />
 
-In this part, we spotlight the paper and give an introduction to algorithmic complexity theory. The code used to reproduce the paper is available on GitHub. This blog post was produced in collaboration with Simon Brugman. 
+In this part, we spotlight the paper and give an introduction to algorithmic complexity theory. The code used to reproduce the paper is available on GitHub. This blog post was produced in collaboration with [Simon Brugman](https://simonbrugman.nl/). 
 
 <!--more-->
 
