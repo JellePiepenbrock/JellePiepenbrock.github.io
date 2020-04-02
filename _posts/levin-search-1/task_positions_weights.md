@@ -6,16 +6,16 @@
     <th>Solutions</th>
 </tr>
 <tr>
-<td>
+<td markdown="1">
 
-- search phase limit: 9
-- total runs: 227417
-- total search time : 38551962
-- total solutions: 2
-- generalizing solutions: 2 (1.0)
+- search phase limit: $$9$$
+- total runs: $$227417$$
+- total search time: $$38551962$$
+- total solutions: $$2$$
+- generalizing solutions: $$2$$ ($$1.0$$)
 
 </td>
-<td>
+<td markdown="1">
 
 
 - [7, 1, 8, -1, 1, -1, -1, 2, 2]
@@ -32,7 +32,7 @@
 <table>
 <tr>
 <td>Run Deterministic Levin Search</td>
-<td>
+<td markdown="1">
   
 ```      
 python levin_search.py POSITION 9 logs/position/
@@ -44,9 +44,9 @@ python levin_search.py POSITION 9 logs/position/
 
 </details>
 
+<br />
+
 #### Solutions
-
-
 
 <table>
 <tr>
@@ -55,27 +55,27 @@ python levin_search.py POSITION 9 logs/position/
 <th>Interpretation</th>
 </tr>
 <tr>
-<td>
+<td markdown="1">
 
 [7, 1, 8, -1, 1, -1, -1, 2, 2]
 
 Search:
-- Found after: 69349
-- Steps allocated: 512
+- Found after: $$69349$$
+- Steps allocated: $$512$$
 
 Program:
-- Steps used: 303
-- Program length: 9
+- Steps used: $$303$$
+- Program length: $$9$$
 - Space probability: $$\frac{1}{227417}$$
-- Complexity: 14.71373280550937
+- Complexity: $$14.71373280550937$$
 
 </td>
-<td>
+<td markdown="1">
 
-<img alt="Program Animation" src="images/position/animation_7_1_8_-1_1_-1_-1_2_2.gif" width="400px" />
+<img alt="Program Animation" src="{{ '/assets/images/levin-search-1/position/animation_7_1_8_-1_1_-1_-1_2_2.gif' | relative_url }}" width="400px" />
 
 </td>
-<td>
+<td markdown="1">
 
 | Address | Contents | Interpretation |
 |---------|----------|----------------|
@@ -99,7 +99,7 @@ Program:
 <table>
 <tr>
 <td>Obtain program log</td>
-<td>
+<td markdown="1">
       
 ```  
 python run_program.py string 7,1,8,-1,1,-1,-1,2,2 program_7_1_8_-1_1_-1_-1_2_2.jsonl
@@ -109,7 +109,7 @@ python run_program.py string 7,1,8,-1,1,-1,-1,2,2 program_7_1_8_-1_1_-1_-1_2_2.j
 </tr>
 <tr>
 <td>Generate animation</td>
-<td>
+<td markdown="1">
        
 ```      
 python program_convert.py program_7_1_8_-1_1_-1_-1_2_2.jsonl animation animation_7_1_8_-1_1_-1_-1_2_2.gif
@@ -119,7 +119,7 @@ python program_convert.py program_7_1_8_-1_1_-1_-1_2_2.jsonl animation animation
 </tr>
 <tr>
 <td>Generate table</td>
-<td>
+<td markdown="1">
      
 ```   
 python program_convert.py program_7_1_8_-1_1_-1_-1_2_2.jsonl table table.md
@@ -131,10 +131,8 @@ python program_convert.py program_7_1_8_-1_1_-1_-1_2_2.jsonl table table.md
 
 </details>
 
----
+<br />
     
-
-
 <table>
 <tr>
 <th>Program</th>
@@ -142,27 +140,28 @@ python program_convert.py program_7_1_8_-1_1_-1_-1_2_2.jsonl table table.md
 <th>Interpretation</th>
 </tr>
 <tr>
-<td>
+<td markdown="1">
 
 [7, 1, 1, -1, -1, 8, -1, 2, 2]
 
 Search:
-- Found after: 73902
-- Steps allocated: 512
+- Found after: $$73902$$
+- Steps allocated: $$512$$
 
 Program:
-- Steps used: 305
-- Program length: 9
+- Steps used: $$305$$
+- Program length: $$9$$
 - Space probability: $$\frac{1}{227417}$$
-- Complexity: 14.720311776607412
+- Complexity: $$14.720311776607412$$
 
 </td>
-<td>
+<td markdown="1">
 
-<img alt="Program Animation" src="images/position/animation_7_1_1_-1_-1_8_-1_2_2.gif" width="400px" />
+<img alt="Program Animation" src="{{ '/assets/images/levin-search-1/position/animation_7_1_1_-1_-1_8_-1_2_2.gif' | relative_url }}" width="400px" />
 
 </td>
-<td>
+<td markdown="1">
+
 
 | Address | Contents | Interpretation |
 |---------|----------|----------------|
@@ -186,7 +185,7 @@ Program:
 <table>
 <tr>
 <td>Obtain program log</td>
-<td>
+<td markdown="1">
       
 ```  
 python run_program.py string 7,1,1,-1,-1,8,-1,2,2 program_7_1_1_-1_-1_8_-1_2_2.jsonl
@@ -196,7 +195,7 @@ python run_program.py string 7,1,1,-1,-1,8,-1,2,2 program_7_1_1_-1_-1_8_-1_2_2.j
 </tr>
 <tr>
 <td>Generate animation</td>
-<td>
+<td markdown="1">
        
 ```      
 python program_convert.py program_7_1_1_-1_-1_8_-1_2_2.jsonl animation animation_7_1_1_-1_-1_8_-1_2_2.gif
@@ -206,7 +205,7 @@ python program_convert.py program_7_1_1_-1_-1_8_-1_2_2.jsonl animation animation
 </tr>
 <tr>
 <td>Generate table</td>
-<td>
+<td markdown="1">
      
 ```   
 python program_convert.py program_7_1_1_-1_-1_8_-1_2_2.jsonl table table.md
@@ -217,6 +216,4 @@ python program_convert.py program_7_1_1_-1_-1_8_-1_2_2.jsonl table table.md
 </table>
 
 </details>
-
----
-    
+   

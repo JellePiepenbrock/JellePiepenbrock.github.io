@@ -6,16 +6,16 @@
     <th>Solutions</th>
 </tr>
 <tr>
-<td>
+<td markdown="1">
 
-- search phase limit: 4
-- total runs: 74
-- total search time : 17384
-- total solutions: 2
-- generalizing solutions: 2 (1.0)
+- search phase limit: $$4$$
+- total runs: $$74$$
+- total search time: $$17384$$
+- total solutions: $$2$$
+- generalizing solutions: $$2$$ ($$1.0$$)
 
 </td>
-<td>
+<td markdown="1">
 
 
 - [1, 0, 2, 0]
@@ -32,7 +32,7 @@
 <table>
 <tr>
 <td>Run Deterministic Levin Search</td>
-<td>
+<td markdown="1">
   
 ```      
 python levin_search.py COUNT 4 logs/count/
@@ -44,9 +44,9 @@ python levin_search.py COUNT 4 logs/count/
 
 </details>
 
+<br />
+
 #### Solutions
-
-
 
 <table>
 <tr>
@@ -55,27 +55,27 @@ python levin_search.py COUNT 4 logs/count/
 <th>Interpretation</th>
 </tr>
 <tr>
-<td>
+<td markdown="1">
 
 [1, 0, 2, 0]
 
 Search:
-- Found after: 9
-- Steps allocated: 512
+- Found after: $$9$$
+- Steps allocated: $$512$$
 
 Program:
-- Steps used: 201
-- Program length: 4
+- Steps used: $$201$$
+- Program length: $$4$$
 - Space probability: $$\frac{1}{74}$$
-- Complexity: 9.303304908059076
+- Complexity: $$9.303304908059076$$
 
 </td>
 <td>
 
-<img alt="Program Animation" src="images/count/animation_1_0_2_0.gif" width="400px" />
+<img alt="Program Animation" src="{{ '/assets/images/levin-search-1/count/animation_1_0_2_0.gif' | relative_url }}" width="400px" />
 
 </td>
-<td>
+<td markdown="1">
 
 | Address | Contents | Interpretation |
 |---------|----------|----------------|
@@ -94,7 +94,7 @@ Program:
 <table>
 <tr>
 <td>Obtain program log</td>
-<td>
+<td markdown="1">
       
 ```  
 python run_program.py string 1,0,2,0 program_1_0_2_0.jsonl
@@ -104,7 +104,7 @@ python run_program.py string 1,0,2,0 program_1_0_2_0.jsonl
 </tr>
 <tr>
 <td>Generate animation</td>
-<td>
+<td markdown="1">
        
 ```      
 python program_convert.py program_1_0_2_0.jsonl animation animation_1_0_2_0.gif
@@ -114,7 +114,7 @@ python program_convert.py program_1_0_2_0.jsonl animation animation_1_0_2_0.gif
 </tr>
 <tr>
 <td>Generate table</td>
-<td>
+<td markdown="1">
      
 ```   
 python program_convert.py program_1_0_2_0.jsonl table table.md
@@ -126,8 +126,7 @@ python program_convert.py program_1_0_2_0.jsonl table table.md
 
 </details>
 
----
-    
+<br />    
 
 
 <table>
@@ -137,27 +136,27 @@ python program_convert.py program_1_0_2_0.jsonl table table.md
 <th>Interpretation</th>
 </tr>
 <tr>
-<td>
+<td markdown="1">
 
 [1, 1, 2, 0]
 
 Search:
-- Found after: 13
-- Steps allocated: 512
+- Found after: $$13$$
+- Steps allocated: $$512$$
 
 Program:
-- Steps used: 201
-- Program length: 4
+- Steps used: $$201$$
+- Program length: $$4$$
 - Space probability: $$\frac{1}{74}$$
-- Complexity: 9.303304908059076
+- Complexity: $$9.303304908059076$$
 
 </td>
 <td>
 
-<img alt="Program Animation" src="images/count/animation_1_1_2_0.gif" width="400px" />
+<img alt="Program Animation" src="{{ '/assets/images/levin-search-1/count/animation_1_1_2_0.gif' | relative_url }}" width="400px" />
 
 </td>
-<td>
+<td markdown="1">
 
 | Address | Contents | Interpretation |
 |---------|----------|----------------|
@@ -176,7 +175,7 @@ Program:
 <table>
 <tr>
 <td>Obtain program log</td>
-<td>
+<td markdown="1">
       
 ```  
 python run_program.py string 1,1,2,0 program_1_1_2_0.jsonl
@@ -186,7 +185,7 @@ python run_program.py string 1,1,2,0 program_1_1_2_0.jsonl
 </tr>
 <tr>
 <td>Generate animation</td>
-<td>
+<td markdown="1">
        
 ```      
 python program_convert.py program_1_1_2_0.jsonl animation animation_1_1_2_0.gif
@@ -196,7 +195,7 @@ python program_convert.py program_1_1_2_0.jsonl animation animation_1_1_2_0.gif
 </tr>
 <tr>
 <td>Generate table</td>
-<td>
+<td markdown="1">
      
 ```   
 python program_convert.py program_1_1_2_0.jsonl table table.md
@@ -207,6 +206,4 @@ python program_convert.py program_1_1_2_0.jsonl table table.md
 </table>
 
 </details>
-
----
     

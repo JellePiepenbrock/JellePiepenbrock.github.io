@@ -2,17 +2,31 @@
 <details open="open"><summary><em>k=1</em></summary>
 <p>
 
-- Initially, $$k = 1$$
-- All programs of length $$k = 1$$ are initialized. Given our primitive set there is only one primitive that is of length 1 (i.e. has no arguments): primitive 3, the STOP operation.
-- Each program runs until a halt or error occurs
+<ul>
+<li markdown="1">
+
+Initially, $$k = 1$$.
+
+</li>
+<li markdown="1">
+
+All programs of length $$k = 1$$ are initialized. Given our primitive set there is only one primitive that is of length 1 (i.e. has no arguments): primitive 3, the STOP operation.
+
+</li>
+<li markdown="1">Each program runs until a halt or error occurs.
+
 ```
 Program -> Status after run (Allocated runtime)
 [3] -> STOP (512)
 ```
-- The specific program with tape [3] is ran for one step, then halts. 
- The weights do not satisfy ALL training examples, hence we continue to the next program.
-- There are no next programs to evaluate, we increase k.
+</li>
+<li>The specific program with tape [3] is ran for one step, then halts. The weights do not satisfy ALL training examples, hence we continue to the next program.</li>
+<li markdown="1">
 
+There are no next programs to evaluate, we increase $$k$$.
+
+</li>
+</ul>
 
 </p>
 </details>
@@ -20,11 +34,21 @@ Program -> Status after run (Allocated runtime)
 <details open="open"><summary><em>k=2</em></summary>
 <p>
 
-- All programs of length $$k = 2$$ are initialized. 
- In the general case these consist of instructions with length 2 (i.e. primitives with one argument) and programs composed of a prefix of length one and an instruction of length 1.
- Given our current set of primitives, there are no sensible prefixes ([3 3] is not valid).
-- Programs that are obviously syntactically invalid aren't generated. For each primitive, we choose to specific an allowed range of arguments. For example [7 0] is invalid (allocate 0 cells) as is [8 1] (increase a non-writeable cell). 
-- Each of the generated programs is ran until it halts, then is evaluated. 
+<ul>
+<li markdown="1"> 
+
+All programs of length $$k = 2$$ are initialized. In the general case these consist of instructions with length 2 (i.e. primitives with one argument) and programs composed of a prefix of length one and an instruction of length 1. Given our current set of primitives, there are no sensible prefixes ([3 3] is not valid).
+ 
+</li>
+<li>
+
+Programs that are obviously syntactically invalid aren't generated. For each primitive, we choose to specific an allowed range of arguments. For example [7 0] is invalid (allocate 0 cells) as is [8 1] (increase a non-writeable cell).
+
+</li>
+<li markdown="1">
+
+Each of the generated programs is ran until it halts, then is evaluated. 
+
 ```
 Program -> Status after run (Allocated runtime)
 [1, 0] -> CONTINUE (512)
@@ -34,15 +58,23 @@ Program -> Status after run (Allocated runtime)
 [2, 2] -> CONTINUE (512)
 [7, 1] -> CONTINUE (512)
 ```
-- None of the solutions generate weights that satisfy ALL training samples.
-- There are no programs left to evaluate, we increase k.
 
+</li>
+<li>None of the solutions generate weights that satisfy ALL training samples.</li>
+<li markdown="1">
+
+There are no programs left to evaluate, we increase $$k$$.
+
+</li>
+</ul>
 
 </p>
 </details>
 
 <details><summary><em>k=3</em></summary>
 <p>
+
+<div markdown="1">
 
 ```
 Program -> Status after run (Allocated runtime)
@@ -57,14 +89,24 @@ Program -> Status after run (Allocated runtime)
 [7, 1, 3] -> STOP (512)
 ```
 
+</div>
+
 </p>
 </details>
 
 <details open="open"><summary><em>k=4</em></summary>
 <p>
 
-- All programs of length $$k = 4$$ are initialized. 
-- Each of the generated programs is ran until it halts, then is evaluated. 
+<ul>
+<li markdown="1">
+
+All programs of length $$k = 4$$ are initialized.
+
+</li> 
+<li markdown="1">
+
+Each of the generated programs is ran until it halts, then is evaluated. 
+
 ```
 [1, 0] -> CONTINUE (2048)
 [1, 0, 1, 0] -> CONTINUE (512)
@@ -196,12 +238,23 @@ Program -> Status after run (Allocated runtime)
 [0, 3, 3, 3] -> STOP (512)
 [0, 3, 3, 4] -> CONTINUE (512)
 ```
-- In this phase, two programs satisfy ALL training examples. 
- They generalize perfectly to all other examples.
-```
-Solutions in this phase [[1, 0, 2, 0], [1, 1, 2, 0]]
-```
-- We found a solution, so for now we end the search process, however one could obviously continue by increasing _k_ to search for other solutions (for example with a lower number of runtime steps required, but higher Kolmogorov complexity).
+
+</li>
+<li markdown="1">
+
+In this phase, two programs satisfy ALL training examples. 
+ They generalize perfectly to all other examples:
+ 
+ - [1, 0, 2, 0]
+ - [1, 1, 2, 0]
+ 
+</li>
+<li markdown="1">
+
+We found a solution, so for now we end the search process, however one could obviously continue by increasing $$k$$ to search for other solutions (for example with a lower number of runtime steps required, but higher Kolmogorov complexity).
+
+</li>
+</ul>
 
 </p>
 </details>
