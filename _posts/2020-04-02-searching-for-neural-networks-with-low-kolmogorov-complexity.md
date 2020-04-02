@@ -6,6 +6,7 @@ date: 2020-04-02 13:30:00
 tags: kolmogorov-complexity long-read
 categories: algorithmic-information-theory neural-networks
 published: true
+mathjax: true
 ---
 
 This will be a two-part blog series, where the first part reproduces the experiments of the paper "Discovering neural nets with low Kolmogorov complexity" and the second part expands on the results of the paper. 
