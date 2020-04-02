@@ -5,6 +5,8 @@ $font-weight-bold: 600;
 $border-width: 1px;
 $border-style: solid;
 $gray-300: #dfe2e5;
+$bg-white: #FFF;
+$bg-gray: #f6f8fa;
 
 .post {
   // Tables
@@ -28,8 +30,13 @@ $gray-300: #dfe2e5;
     }
 
     tr {
+      background-color: $bg-white;
       // stylelint-disable-next-line primer/borders
       border-top: $border-width $border-style darken($gray-300, 4%);
+      
+      &:nth-child(2n) {
+        background-color: $bg-gray;
+      }
     }
 
     img {
