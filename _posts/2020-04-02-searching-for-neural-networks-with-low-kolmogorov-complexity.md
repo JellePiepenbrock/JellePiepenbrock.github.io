@@ -12,7 +12,7 @@ This will be a two-part blog series, where the first part reproduces the experim
 
 <img alt="Program Animation" src="{{ '/assets/images/levin-search-1/count/animation_1_0_2_0.gif' | relative_url }}" width="400px" />
 
-In this part, we spotlight the paper and give an introduction to algorithmic complexity theory. The code used to reproduce the paper is available on GitHub.
+In this part, we spotlight the paper and give an introduction to algorithmic complexity theory. The code used to reproduce the paper is available on GitHub. This blog post was produced in collaboration with Simon Brugman. 
 
 <!--more-->
 
@@ -314,15 +314,15 @@ Cited as:
 ```bibtex
 @article{2020levinsearchnetwork,
   title   = "Searching for Neural Networks with Low Kolmogorov Complexity",
-  author  = "Brugman, Simon and Piepenbrock, Jelle",
-  journal = "simonbrugman.nl",
+  author  = "Piepenbrock, Jelle and Brugman, Simon",
+  journal = "jellepiepenbrock.github.io",
   year    = "2020",
-  url     = "https://simonbrugman.nl/2020/04/01/searching-for-neural-networks-with-low-kolmogorov-complexity.html"
+  url     = "https://jellepiepenbrock.github.io/2020/04/02/searching-for-neural-networks-with-low-kolmogorov-complexity.html"
 }
 ```
 
 This blog post was written as a collaboration between Simon Brugman and Jelle Piepenbrock (with equal contribution).
-It was cross-published at both author's blogs. You can find the parallel version [here](#).
+It was cross-published at both author's blogs. You can find the parallel version [here](https://simonbrugman.nl/2020/04/02/searching-for-neural-networks-with-low-kolmogorov-complexity.html).
 
 ## References
 - Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. J. of Math, 58(345-363), 5.
