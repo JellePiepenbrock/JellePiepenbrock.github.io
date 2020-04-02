@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<div class="post other-pages">
+	    <li>
+      <h1 id="posts-label">posts with {{ page.title }}</h1>
+	<ul>
+	{% for post in site.categories[page.tag] %}
+	  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+	    {{ post.description }}
+	  </li>
+	{% endfor %}
+	</ul>
+</div>
