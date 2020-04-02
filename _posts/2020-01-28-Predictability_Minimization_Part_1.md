@@ -7,6 +7,8 @@ categories: neural-networks independent-component-analysis
 
 This will be a small blog post explaining the setup of Juergen Schmidhubers 1992 paper on 'Predictability Minimization'. The full title of the paper is 'Learning Factorial Codes by Predictability Minimization'. Recently, there has been a lot of literature focusing on 'disentangled representations' in variational autoencoders and other neural network architectures. In a follow-up post, I will give a simple Python implementation of the paper's central idea.
 
+<!--more-->
+
 In the author's own words, in the abstract, the idea goes like this:
 
 >I propose a novel general principle for unsupervised learning of distributed nonredundant internal representations of input patterns. The principle is based on two opposing forces. For each representational unit there is an adaptive predictor, which tries to predict the unit from the remaining units. In turn, each unit tries to react to the environment such that it minimizes its predictability. This encourages each unit to filter "abstract concepts" out of the environmental input such that these concepts are statistically independent of those on which the other units focus. 
