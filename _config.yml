@@ -17,6 +17,9 @@ plainwhite:
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: jelles-blog
   # generate social links in footer
+  navigation:
+    - title: Resume
+      url: "/resume"
   social_links:
     #twitter: thelehhman
     github:  jellepiepenbrock
