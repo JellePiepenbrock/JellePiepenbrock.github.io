@@ -18,6 +18,8 @@ plainwhite:
   disqus_shortname: jelles-blog
   # generate social links in footer
   navigation:
+    - title: Home
+        url: "/"
     - title: Resume
       url: "/static/resume_april2020.pdf"
   social_links:
