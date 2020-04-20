@@ -19,7 +19,7 @@ plainwhite:
   # generate social links in footer
   navigation:
     - title: Resume
-      url: "/resume"
+      url: "/static/resume_april2020.pdf"
   social_links:
     #twitter: thelehhman
     github:  jellepiepenbrock
