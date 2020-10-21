@@ -1,4 +1,4 @@
-title: The Logic Of Science
+title: Blog
 author: Jelle Piepenbrock
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Jelle Piepenbrock
-  tagline: Reinforcement Learner
+  tagline:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: jelles-blog
