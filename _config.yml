@@ -20,6 +20,8 @@ plainwhite:
   navigation:
     - title: Home
       url: "/"
+    - title: Work
+      url: "/work"
 
   social_links:
     #twitter: thelehhman
