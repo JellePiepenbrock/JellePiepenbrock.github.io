@@ -5,7 +5,7 @@ Below there will a list of my recent research work.
 
 -----
 ## 2022 
-_The isabelle ENIGMA_ \
+_The Isabelle ENIGMA_ \
 Zarathustra A Goertzel, Jan Jakubův, Cezary Kaliszyk, Miroslav Olšák, **Jelle Piepenbrock**, Josef Urban \
 13th International Conference on Interactive Theorem Proving (ITP 2022)
 
