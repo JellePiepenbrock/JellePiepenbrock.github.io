@@ -10,7 +10,7 @@ Below there will a list of my recent research work.
 Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
 ICML 2024
 
-_First Experiments with Neural cvc5_ \
+[_First Experiments with Neural cvc5_](https://easychair.org/publications/open/Z6b2) \
 **Jelle Piepenbrock**, Mikoláš Janota, Josef Urban, Jan Jakubuv \
 International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR 2024)
 
