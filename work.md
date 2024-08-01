@@ -5,6 +5,10 @@ Below there will a list of my recent research work.
 
 -----
 ## 2022 
+_Guiding an automated theorem prover with neural rewriting_
+**Jelle Piepenbrock**, Tom Heskes, Mikoláš Janota, Josef Urban
+International Joint Conference on Automated Reasoning
+
 _The Isabelle ENIGMA_ \
 Zarathustra A Goertzel, Jan Jakubův, Cezary Kaliszyk, Miroslav Olšák, **Jelle Piepenbrock**, Josef Urban \
 13th International Conference on Interactive Theorem Proving (ITP 2022)
