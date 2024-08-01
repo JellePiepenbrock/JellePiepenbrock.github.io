@@ -6,7 +6,7 @@ Below there will a list of my recent research work.
 -----
 # Published Papers
 ## 2024
-_Graph2Tac: Online Representation Learning of Formal Math Concepts_ \
+[_Graph2Tac: Online Representation Learning of Formal Math Concepts_](https://openreview.net/pdf?id=A7CtiozznN) \
 Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
 ICML 2024
 
