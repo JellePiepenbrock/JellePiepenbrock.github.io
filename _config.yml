@@ -21,7 +21,7 @@ plainwhite:
     - title: Home
       url: "/"
     - title: Work
-      url: "/_layouts/work"
+      url: "/work"
 
   social_links:
     #twitter: thelehhman
