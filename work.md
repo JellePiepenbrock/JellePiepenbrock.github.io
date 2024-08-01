@@ -10,8 +10,8 @@ Below there will a list of my recent research work.
 Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
 ICML 2024
 
-_Machine Learning for Quantifier Selection in cvc5_
-Jan Jakubuv, Mikolas Janota, **Jelle Piepenbrock** and Josef Urban
+_Machine Learning for Quantifier Selection in cvc5_ \
+Jan Jakubuv, Mikolas Janota, **Jelle Piepenbrock** and Josef Urban \
 ECAI 2024 (Accepted)
 
 [_First Experiments with Neural cvc5_](https://easychair.org/publications/open/Z6b2) \
