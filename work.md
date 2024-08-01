@@ -4,6 +4,15 @@ I'm a researcher working on machine learning and automated theorem proving.
 Below there will a list of my recent research work.
 
 -----
+## 2024
+_Graph2Tac: Online Representation Learning of Formal Math Concepts_ \
+Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo,**Jelle Piepenbrock**, Vasily Pestun \
+ICML 2024
+
+_First Experiments with Neural cvc5_ \
+**Jelle Piepenbrock**, Mikoláš Janota, Josef Urban, Jan Jakubuv \
+International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR 2024)
+
 ## 2023
 _Guiding an Instantiation Prover with Graph Neural Networks_ \
 Karel Chvalovský, Konstantin Korovin, **Jelle Piepenbrock**, Josef Urban \
