@@ -5,8 +5,8 @@ Below there will a list of my recent research work.
 
 -----
 ## 2023
-_Guiding an Instantiation Prover with Graph Neural Networks_
-Karel Chvalovský, Konstantin Korovin, **Jelle Piepenbrock**, Josef Urban
+_Guiding an Instantiation Prover with Graph Neural Networks_ \
+Karel Chvalovský, Konstantin Korovin, **Jelle Piepenbrock**, Josef Urban \
 International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR 2023)
 
 _Graph Neural Networks for Mapping Variables Between Programs_ \
