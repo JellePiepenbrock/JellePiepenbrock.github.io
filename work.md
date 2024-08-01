@@ -41,4 +41,4 @@ An incomplete list
 
 [text2tac](https://github.com/JellePiepenbrock/text2tac) \
 Text2Tac makes it possible to control the Coq theorem proving system with Language Models (such as GPT-style Transformers). 
-It is part of the Tactician ecosystem. Find the introduction to the Tactician ecosystem [here] (https://coq-tactician.github.io/api/).
+It is part of the Tactician ecosystem. Find the introduction to the Tactician ecosystem [here](https://coq-tactician.github.io/api/).
