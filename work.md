@@ -4,6 +4,15 @@ I'm a researcher working on machine learning and automated theorem proving.
 Below there will a list of my recent research work.
 
 -----
+## 2023
+_Guiding an Instantiation Prover with Graph Neural Networks_
+Karel Chvalovský, Konstantin Korovin, **Jelle Piepenbrock**, Josef Urban
+International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR 2023)
+
+_Graph Neural Networks for Mapping Variables Between Programs_ \
+Pedro Orvalho, **Jelle Piepenbrock**, Mikoláš Janota, Vasco Manquinho \
+ECAI 2023
+
 ## 2022 
 _Guiding an automated theorem prover with neural rewriting_ \
 **Jelle Piepenbrock**, Tom Heskes, Mikoláš Janota, Josef Urban \
