@@ -1,7 +1,6 @@
 # Work
-I'm a researcher working on machine learning and automated theorem proving.
+I'm a researcher working on machine learning and automated theorem proving. Currently I'm at the end of the PhD, so research job opportunities welcome! 
 
-Below there will a list of my recent research work.
 
 -----
 # Published Papers
