@@ -7,4 +7,4 @@ Below there will a list of my recent research work.
 
 _Towards learning quantifier instantiation in SMT_ \
 M Janota, **J Piepenbrock**, B Piotrowski \
-25th International Conference on Theory and Applications of Satisfiability \
+25th International Conference on Theory and Applications of Satisfiability 
