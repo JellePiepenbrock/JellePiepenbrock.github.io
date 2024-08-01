@@ -36,4 +36,8 @@ _Towards learning quantifier instantiation in SMT_ \
 Mikoláš Janota, **Jelle Piepenbrock**, Bartosz Piotrowski \
 25th International Conference on Theory and Applications of Satisfiability 
 
+# Software
+An incomplete list
 
+[text2tac](https://github.com/JellePiepenbrock/text2tac) \
+Text2Tac makes it possible to control the Coq theorem proving system with Language Models (such as GPT-style Transformers).
