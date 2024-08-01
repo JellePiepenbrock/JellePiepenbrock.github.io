@@ -5,8 +5,8 @@ Below there will a list of my recent research work.
 
 -----
 ## 2022 
-_Guiding an automated theorem prover with neural rewriting_
-**Jelle Piepenbrock**, Tom Heskes, Mikoláš Janota, Josef Urban
+_Guiding an automated theorem prover with neural rewriting_ \
+**Jelle Piepenbrock**, Tom Heskes, Mikoláš Janota, Josef Urban \
 International Joint Conference on Automated Reasoning
 
 _The Isabelle ENIGMA_ \
