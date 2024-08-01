@@ -4,9 +4,10 @@ I'm a researcher working on machine learning and automated theorem proving.
 Below there will a list of my recent research work.
 
 -----
+# Published Papers
 ## 2024
 _Graph2Tac: Online Representation Learning of Formal Math Concepts_ \
-Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo,**Jelle Piepenbrock**, Vasily Pestun \
+Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
 ICML 2024
 
 _First Experiments with Neural cvc5_ \
@@ -34,3 +35,5 @@ Zarathustra A Goertzel, Jan Jakubův, Cezary Kaliszyk, Miroslav Olšák, **Jelle
 _Towards learning quantifier instantiation in SMT_ \
 Mikoláš Janota, **Jelle Piepenbrock**, Bartosz Piotrowski \
 25th International Conference on Theory and Applications of Satisfiability 
+
+
