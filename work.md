@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Work
 I'm a researcher working on machine learning and automated theorem proving. Currently I'm at the end of the PhD, so research job opportunities welcome! 
 
