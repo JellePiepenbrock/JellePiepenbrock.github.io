@@ -20,7 +20,7 @@ plainwhite:
   navigation:
     - title: Work
       url: "/work"
-    - title: Blog
+    - title: Home
       url: "/"
    
 
