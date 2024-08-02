@@ -19,9 +19,9 @@ plainwhite:
   # generate social links in footer
   navigation:
    - title: Work
-      url: "/work"
-    - title: Blog
       url: "/"
+    - title: Blog
+      url: "/blog"
    
 
   social_links:
