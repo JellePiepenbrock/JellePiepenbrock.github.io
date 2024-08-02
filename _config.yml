@@ -18,7 +18,7 @@ plainwhite:
   disqus_shortname: jelles-blog
   # generate social links in footer
   navigation:
-   - title: Work
+    - title: Work
       url: "/work"
     - title: Blog
       url: "/"
