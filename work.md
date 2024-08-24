@@ -5,6 +5,10 @@ In August, I'll be at the _Hausdorff Research Institute For Mathematics_ in Bonn
 -----
 # Published Papers
 ## 2024
+_Invariant Neural Architecture for Learning Term Synthesis in Instantiation Proving_ \
+**Jelle Piepenbrock**, Josef Urban, Konstantin Korovin, Miroslav Olšák, Tom Heskes, Mikoláš Janota \
+Journal of Symbolic Computation (Accepted) \
+
 [_Graph2Tac: Online Representation Learning of Formal Math Concepts_](https://openreview.net/pdf?id=A7CtiozznN) \
 Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
 ICML 2024
