@@ -51,4 +51,13 @@ An incomplete list
 Text2Tac makes it possible to control the Coq theorem proving system with Language Models (such as GPT-style Transformers). 
 It is part of the Tactician ecosystem. Find the introduction to the Tactician ecosystem [here](https://coq-tactician.github.io/api/).
 
+[neural-synthesis](https://github.com/JellePiepenbrock/neural-synthesis) \
+A neural system to synthesize instantiation terms in first-order logic problems. Internally uses both graph neural networks and recurrent neural networks.
+
+[mlcvc5](https://github.com/JellePiepenbrock/mlcvc5-LPAR) \
+The smt solver cvc5 with an integrated graph neural network that performs premise selection and selects instantiation terms. 
+
+[iprover-gnn-server](https://github.com/chvalovsky/iprover-gnn-server) \
+Graph neural network-based guidance of the instantion-calculus based first-order automated theorem prover iProver. 
+
 # Other
