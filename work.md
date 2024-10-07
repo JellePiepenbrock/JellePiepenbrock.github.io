@@ -55,7 +55,7 @@ It is part of the Tactician ecosystem. Find the introduction to the Tactician ec
 A neural system to synthesize instantiation terms in first-order logic problems. Internally uses both graph neural networks and recurrent neural networks.
 
 [mlcvc5](https://github.com/JellePiepenbrock/mlcvc5-LPAR) \
-The smt solver cvc5 with an integrated graph neural network that performs premise selection and selects instantiation terms. 
+The SMT solver cvc5 with an integrated graph neural network that performs premise selection and selects instantiation terms. 
 
 [iprover-gnn-server](https://github.com/chvalovsky/iprover-gnn-server) \
 Graph neural network-based guidance of the instantion-calculus based first-order automated theorem prover iProver. 
