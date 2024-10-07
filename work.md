@@ -8,7 +8,7 @@ In August, I'll be at the _Hausdorff Research Institute For Mathematics_ in Bonn
 ## 2024
 _Invariant Neural Architecture for Learning Term Synthesis in Instantiation Proving_ \
 **Jelle Piepenbrock**, Josef Urban, Konstantin Korovin, Miroslav Olšák, Tom Heskes, Mikoláš Janota \
-Journal of Symbolic Computation (Accepted) 
+Journal of Symbolic Computation 
 
 [_Graph2Tac: Online Representation Learning of Formal Math Concepts_](https://openreview.net/pdf?id=A7CtiozznN) \
 Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
@@ -20,7 +20,7 @@ International Conference on Logic for Programming, Artificial Intelligence and R
 
 _Machine Learning for Quantifier Selection in cvc5_ \
 Jan Jakubuv, Mikolas Janota, **Jelle Piepenbrock** and Josef Urban \
-ECAI 2024 (Accepted)
+ECAI 2024
 
 ## 2023
 _Guiding an Instantiation Prover with Graph Neural Networks_ \
