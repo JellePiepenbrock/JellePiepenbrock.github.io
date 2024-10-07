@@ -2,7 +2,7 @@
 I'm a researcher working on machine learning and automated theorem proving. Currently I'm at the end of the PhD, so research job opportunities welcome! 
 
 On the machine learning side, my work involves graph neural networks and transformer-based language models. I integrated these techniques with various formal mathematics systems, such as
-first-order provers(eg. iProver, E), SMT solvers (cvc5) and interactive theorem proving systems (Coq). 
+first-order logic provers (eg. iProver and E), SMT solvers (cvc5) and interactive theorem proving systems (Coq). 
 
 In August, I'll be at the _Hausdorff Research Institute For Mathematics_ in Bonn, Germany to take part in the wonderful _Prospects of Formal Mathematics_ program.
 
