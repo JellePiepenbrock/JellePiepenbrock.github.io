@@ -4,7 +4,7 @@ I'm a researcher working on machine learning and automated theorem proving. Curr
 On the machine learning side, my work involves graph neural networks (GNNs) and transformer-based language models. I integrated these techniques with various formal mathematics systems, such as
 first-order logic provers (eg. iProver and E), SMT solvers (cvc5) and interactive theorem proving systems (Coq). I've also used GNNs for program repair (repairing C code mistakes).
 
-My PhD position is in the Data Science group at the ICIS institute at Radboud University Nijmegen. I'm also connected as a researcher to the Czech Institute for Informatics, Robotics and Cybernetics (CIIRC) at the Technical University of Prague.
+My PhD position is in the Data Science group at the ICIS institute at Radboud University Nijmegen. I'm also connected as a researcher to the Czech Institute for Informatics, Robotics and Cybernetics (CIIRC) at the Technical University of Prague. During my PhD I supervised MSc students on their thesis projects.
 
 In August, I was at the _Hausdorff Research Institute For Mathematics_ in Bonn, Germany to take part in the wonderful _Prospects of Formal Mathematics_ program.
 
