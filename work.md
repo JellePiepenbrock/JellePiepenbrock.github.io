@@ -19,7 +19,7 @@ Journal of Symbolic Computation
 Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
 ICML 2024
 
-[_First Experiments with Neural cvc5_](https://easychair.org/publications/open/Z6b2) \
+[_First Experiments with Neural cvc5_](https://easychair.org/publications/paper/Z6b2/open) \
 **Jelle Piepenbrock**, Mikoláš Janota, Josef Urban, Jan Jakubuv \
 International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR 2024)
 
