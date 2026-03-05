@@ -54,7 +54,7 @@ An incomplete list of projects I worked on.
 
 [text2tac](https://github.com/JellePiepenbrock/text2tac) \
 Text2Tac makes it possible to control the Coq theorem proving system with Language Models (such as GPT-style Transformers). 
-It is part of the Tactician ecosystem. Find the introduction to the Tactician ecosystem [here](https://coq-tactician.github.io/api/).
+It is part of the Tactician ecosystem. Find the introduction to the Tactician ecosystem [here](https://coq-tactician.github.io/api/introduction/).
 
 [neural-synthesis](https://github.com/JellePiepenbrock/neural-synthesis) \
 A neural system to synthesize instantiation terms in first-order logic problems. Internally uses both graph neural networks and recurrent neural networks.
