@@ -1,5 +1,5 @@
 # Work
-I'm a researcher working on machine learning and automated theorem proving. Currently I'm at the end of the PhD, so research job opportunities welcome! 
+I'm a researcher at Eindhoven University of Technology on the AI for Software Engineering project. I did my PhD on machine learning and automated theorem proving.
 
 On the machine learning side, my work involves graph neural networks (GNNs) and transformer-based language models. I integrated these techniques with various formal mathematics systems, such as
 first-order logic provers (eg. iProver and E), SMT solvers (cvc5) and interactive theorem proving systems (Coq). I've also used GNNs for program repair (repairing C code mistakes).
