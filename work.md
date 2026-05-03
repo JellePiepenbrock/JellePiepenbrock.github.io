@@ -10,11 +10,14 @@ In August 2024, I was at the _Hausdorff Research Institute For Mathematics_ in B
 
 -----
 # Published Papers
-## 2024
+## 2025
 _Invariant Neural Architecture for Learning Term Synthesis in Instantiation Proving_ \
 **Jelle Piepenbrock**, Josef Urban, Konstantin Korovin, Miroslav Olšák, Tom Heskes, Mikoláš Janota \
 Journal of Symbolic Computation 
 
+_The use of knowledge graphs for drug repurposing: From classical machine learning algorithms to graph neural networks_ \
+Siqi Wei, Christo Sasi, **Jelle Piepenbrock**, Martijn A Huynen, Peter AC’t Hoen
+## 2024
 [_Graph2Tac: Online Representation Learning of Formal Math Concepts_](https://openreview.net/pdf?id=A7CtiozznN) \
 Lasse Blaauwbroek, Mirek Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, **Jelle Piepenbrock**, Vasily Pestun \
 ICML 2024
