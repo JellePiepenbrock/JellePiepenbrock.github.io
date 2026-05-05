@@ -2,7 +2,7 @@
 I'm a researcher at Eindhoven University of Technology on the AI for Software Engineering project. The work focuses on the automation of software migration. 
 
 I did my PhD on machine learning and automated theorem proving. On the machine learning side, my work involves graph neural networks (GNNs) and transformer-based language models. I integrated these techniques with various formal mathematics systems, such as
-first-order logic provers (eg. iProver and E), SMT solvers (cvc5) and interactive theorem proving systems (Coq). I've also used GNNs for program repair (repairing C code mistakes).
+first-order logic provers (eg. iProver and E), SMT solvers (cvc5) and interactive theorem proving systems (Rocq). I've also used GNNs for program repair (repairing C code mistakes).
 
 My PhD position was in the Data Science group at the ICIS institute at Radboud University Nijmegen. I was also connected as a researcher to the Automated Reasoning department of the Czech Institute for Informatics, Robotics and Cybernetics (CIIRC) at the Technical University of Prague (where I spent 2 years). During my PhD I supervised MSc students on their thesis projects.
 
