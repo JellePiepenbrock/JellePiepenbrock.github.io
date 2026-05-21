@@ -17,7 +17,7 @@ European Conference on Information Retrieval
 
 _KG-Bench: Benchmarking Graph Neural Network Algorithms for Drug Repurposing_ \
 Siqi Wei, Christo Sasi, **Jelle Piepenbrock**, Martijn A Huynen, Peter AC ’t Hoen \
-Bioinformatics (Accepted for Publication)
+Bioinformatics
 
 ## 2025
 _Invariant Neural Architecture for Learning Term Synthesis in Instantiation Proving_ \
