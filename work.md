@@ -13,7 +13,7 @@ In August 2024, I was at the _Hausdorff Research Institute For Mathematics_ in B
 ## 2026
 _Globally Optimal Multi-Object Tracking with Splitting and Merging_ \
 Mihaela Mihaylova, **Jelle Piepenbrock** and Johannes Textor \
-UAI \
+UAI (Accepted, to be published)
 
 _OrLog: Resolving Complex Queries with LLMs and Probabilistic Reasoning_ \
 Mohanna Hoveyda, **Jelle Piepenbrock**, Arjen P de Vries, Maarten de Rijke, Faegheh Hasibi \
