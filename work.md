@@ -84,7 +84,7 @@ A neural system to synthesize instantiation terms in first-order logic problems.
 [mlcvc5](https://github.com/JellePiepenbrock/mlcvc5-LPAR) \
 The SMT solver cvc5 with an integrated graph neural network that performs premise selection and selects instantiation terms. 
 
-[iprover-gnn-server](https://github.com/chvalovsky/iprover-gnn-server) \
+[iprover-gnn-server](https://github.com/JellePiepenbrock/iprover-gnn-server) \
 Graph neural network-based guidance of the instantion-calculus based first-order automated theorem prover iProver. 
 
 # Other
